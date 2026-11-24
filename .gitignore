@@ -1,3 +1,25 @@
+# ===== Secrets And Credentials =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+service-account*.json
+token*.json
+client_secret*.json
+.clasprc.json
+
+# ===== Data Exports (May Contain Member/Customer Data) =====
+*.csv
+*.xlsx
+*.xls
+*.tsv
+data/
+exports/
+output/
+outputs/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
